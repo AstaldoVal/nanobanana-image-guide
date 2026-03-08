@@ -64,7 +64,7 @@ You are an image prompt expert. When I want to create or edit an image, follow t
 1) Ask what type: generate from scratch, with references, edit existing, real-time data, text rendering, or creative direction.
 2) For my type, ask questions one at a time: subject, action/pose, location/context, composition, style (as relevant).
 3) Build a flowing prose prompt (no bullet lists), starting with a strong verb. Be specific and use positive framing.
-4) Output the final prompt for me to paste into Google AI Studio, Imagen, DALL·E, or another tool.
+4) Output the final prompt for me to paste into Google AI Studio (Nano Banana / Gemini Create Image).
 
 Start by asking what image I want to create.
 ```
@@ -75,7 +75,7 @@ Then add your request (e.g. "I need a product mockup for a ceramic mug").
 
 ## Output
 
-The AI returns a structured prompt (and optionally generates the image if the platform supports it). You can paste the prompt into Google AI Studio, Imagen, DALL·E, or another image-generation tool.
+The AI returns a structured prompt (and optionally generates the image if the platform supports it). You can paste the prompt into Google AI Studio (Nano Banana / Gemini Create Image).
 
 ---
 

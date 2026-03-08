@@ -35,7 +35,7 @@ Before building the prompt: be specific, use positive framing (describe what you
 Assemble answers into a single flowing prose prompt. No bullet lists. Start with a strong verb.
 
 ## Step 5: Generate or output
-If you have image generation (e.g. Nano Banana, DALL·E, Imagen): call it with the prompt. Suggest aspect ratio (1:1, 16:9, 9:16, 4:3, 3:4). If no tool: output the final prompt so the user can paste it into Google AI Studio or another tool.
+If you have image generation (Nano Banana / Gemini Create Image): call it with the prompt. Suggest aspect ratio (1:1, 16:9, 9:16, 4:3, 3:4). If no tool: output the final prompt so the user can paste it into Google AI Studio (Nano Banana).
 
 Use Knowledge (Image_Guide_Playbook) for the full workflow and example prompts when needed.
 ```

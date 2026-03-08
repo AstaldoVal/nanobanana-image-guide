@@ -118,9 +118,9 @@ Assemble answers into a single narrative prompt. Do not use bullet lists in the 
 
 ## Step 5: Generate or output prompt
 
-- If the platform has image generation (Nano Banana MCP, Google AI Studio, Imagen, DALL·E, etc.): call the tool with the built prompt.
+- If the platform has image generation (Nano Banana MCP, Google AI Studio, Gemini Create Image): call the tool with the built prompt.
 - Suggest aspect ratio: 1:1, 16:9, 9:16, 4:3, 3:4.
-- If no generation tool: output the final prompt so the user can paste it into their preferred tool.
+- If no generation tool: output the final prompt so the user can paste it into Google AI Studio (Nano Banana / Gemini Create Image).
 
 ---
 
