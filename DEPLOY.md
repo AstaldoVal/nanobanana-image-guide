@@ -9,7 +9,7 @@ Copy the entire **standalone** folder. It includes:
 - `README.md` — main entry point with installation for all vendors
 - `SKILL.md` — for Cursor/Manus (skills)
 - `Image_Guide_Playbook.md` — universal playbook for pasting/attaching
-- `platforms/` — vendor-specific instructions (Cursor, Claude, ChatGPT, Gemini, Grok, Manus, ClawdBot)
+- `platforms/` — vendor-specific instructions (Cursor, Claude, Gemini, ClawdBot)
 - `SOURCES.md` — attribution
 - `DEPLOY.md` — this file
 

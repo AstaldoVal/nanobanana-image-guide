@@ -1,6 +1,6 @@
 # Nano Banana Image Guide — use in any AI assistant
 
-This folder is a **standalone product**: the same image-creation workflow works in ChatGPT, Claude, Grok, Manus, Cursor, Gemini, or any other AI chat. No dependency on a specific app or file system.
+This folder is a **standalone product**: the same image-creation workflow works in Claude, Cursor, Gemini, or any other AI chat that can use Nano Banana (Gemini Create Image). No dependency on a specific app or file system.
 
 **Preferred way:** use it as a **skill** (or equivalent) on your platform so the assistant always follows the step-by-step prompting workflow. If the platform doesn't support skills, use the workarounds below.
 
@@ -8,7 +8,7 @@ This folder is a **standalone product**: the same image-creation workflow works 
 
 ## What's inside
 
-- **SKILL.md** — Agent Skills–compatible skill (Cursor, Manus). References the full playbook. Use when the platform supports loading a skill file or folder.
+- **SKILL.md** — Agent Skills–compatible skill (Cursor). References the full playbook. Use when the platform supports loading a skill file or folder.
 - **Image_Guide_Playbook.md** — Full workflow as plain markdown; for pasting or attaching when you're not using a skill.
 - **platforms/** — Ready-to-use instructions or install steps per platform.
 - **README.md** — This file.
@@ -24,24 +24,6 @@ This folder is a **standalone product**: the same image-creation workflow works 
 **Details:** [platforms/Cursor/README.md](platforms/Cursor/README.md)
 
 **If you don't use a skills folder:** Paste **Image_Guide_Playbook.md** into the chat, or use the one-shot prompt under "All platforms" below.
-
----
-
-### Manus (skills supported)
-
-**Use as skill:** In Manus → Skills → Upload. Upload the folder that contains `SKILL.md` and `Image_Guide_Playbook.md`. The skill appears in chat (e.g. `/nanobanana-image-guide`).
-
-**Details:** [platforms/Manus/README.md](platforms/Manus/README.md)
-
----
-
-### ChatGPT (Custom GPT = "skill")
-
-**Use as skill:** Create a Custom GPT. In **Instructions**, paste the content of **platforms/ChatGPT/Custom_GPT_Instructions.md**. Optionally add **Image_Guide_Playbook.md** to **Knowledge**.
-
-**Details:** [platforms/ChatGPT/Custom_GPT_Instructions.md](platforms/ChatGPT/Custom_GPT_Instructions.md)
-
-**If you don't use Custom GPTs:** Attach **Image_Guide_Playbook.md** and say "Use this guide to help me create an image…", or use the one-shot prompt below.
 
 ---
 
@@ -62,14 +44,6 @@ This folder is a **standalone product**: the same image-creation workflow works 
 **Details:** [platforms/Gemini/README.md](platforms/Gemini/README.md)
 
 **If you don't use Gems:** Paste **Image_Guide_Playbook.md** in the chat and ask Gemini to follow it.
-
----
-
-### Grok (custom instructions)
-
-**Use as "skill":** Open **Customize Grok** (or a **Workspace**) and paste the content of **platforms/Grok/Custom_Instructions.md**.
-
-**Details:** [platforms/Grok/README.md](platforms/Grok/README.md)
 
 ---
 
