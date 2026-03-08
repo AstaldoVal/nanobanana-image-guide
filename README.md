@@ -27,13 +27,13 @@ This folder is a **standalone product**: the same image-creation workflow works 
 
 ---
 
-### Claude (claude.ai) (Projects = "skill")
+### Claude (claude.ai)
 
-**Use as skill:** Create a Project. In **Project instructions**, paste the content of **platforms/Claude/Project_Instructions.md**. In **Knowledge**, add **Image_Guide_Playbook.md**.
+**Use as skill:** Enable *Code execution and file creation* in Settings > Capabilities. Then **Customize > Skills** → upload this folder as ZIP. Claude uses it automatically when you ask to create or edit an image.
 
-**Details:** [platforms/Claude/Project_Instructions.md](platforms/Claude/Project_Instructions.md)
+**Details:** [platforms/Claude/README.md](platforms/Claude/README.md)
 
-**If you don't use Projects:** Attach **Image_Guide_Playbook.md** and ask Claude to follow it, or use the one-shot prompt below.
+**Alternative:** Create a Project and paste instructions from **Project_Instructions.md**, or attach **Image_Guide_Playbook.md** in chat.
 
 ---
 
