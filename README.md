@@ -47,11 +47,11 @@ This folder is a **standalone product**: the same image-creation workflow works 
 
 ---
 
-### ClawdBot (skills are code-based)
+### OpenClaw (skills are code-based)
 
-**Workaround:** Paste **platforms/ClawdBot/Custom_Instructions.md** into custom instructions, or attach **Image_Guide_Playbook.md** in chat.
+**Workaround:** Paste **platforms/OpenClaw/Custom_Instructions.md** into custom instructions, or attach **Image_Guide_Playbook.md** in chat.
 
-**Details:** [platforms/ClawdBot/README.md](platforms/ClawdBot/README.md)
+**Details:** [platforms/OpenClaw/README.md](platforms/OpenClaw/README.md)
 
 ---
 
